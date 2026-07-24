@@ -1,8 +1,17 @@
 aid: brickanta
 name: Brickanta
-description: 'Brickanta is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: enterprise; ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Brickanta is a Stockholm-based agentic AI platform built for the construction
+  industry, deploying specialized AI agents to automate pre-construction and
+  project workflows including bid analysis, cost estimation, procurement package
+  generation, document and contract review, compliance, and quality assurance.
+  The platform reads drawings, specs, and contracts to surface risks and gaps,
+  turns raw RFPs into discipline-specific procurement packages, and builds a
+  searchable knowledge base from every finished project. Brickanta raised an $8M
+  seed round led by Northzone in early 2026 and serves construction teams across
+  eleven countries. The company exposes a customer application and a public trust
+  portal but does not currently publish a public developer API, SDKs, or API
+  reference; this profile captures its identity and security posture.
 url: https://raw.githubusercontent.com/api-evangelist/brickanta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,29 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://framerusercontent.com/assets/i97GNkk72qJwvpa69B7UkCPbnZU.jpg
 tags:
 - Company
-- Enterprise; Ai
+- Enterprise
+- Artificial Intelligence
+- Construction
+- Agentic AI
+- Procurement
+- Compliance
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/brickanta-trust-center.yml
+- type: Compliance
+  url: https://trust.brickanta.com/
+- type: DomainSecurity
+  url: security/brickanta-domain-security.yml
 - type: Website
   url: https://www.brickanta.com
+- type: Product
+  url: https://www.brickanta.com/product
+- type: Pricing
+  url: https://www.brickanta.com/pricing
+- type: Blog
+  url: https://www.brickanta.com/blog
+- type: Login
+  url: https://www.app.brickanta.com/
+- type: TermsOfService
+  url: https://brickanta.com/terms.pdf
+- type: PrivacyPolicy
+  url: https://brickanta.com/privacy.pdf
+- type: LinkedIn
+  url: https://www.linkedin.com/company/brickanta/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

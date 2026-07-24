@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.brickanta.com/
+url: https://trust.brickanta.com/
+certifications:
+- ISO 27001
+- GDPR
+- EU AI Act
+iso_certificate: SE559537-3647
+iso_standard: ISO/IEC 27001:2022
+controls_count: 245
+subprocessors:
+- Anthropic
+- OpenAI
+- AWS
+- Google Cloud Platform
+- Vercel
+- Framer
+- Google Workspace
+evidence:
+- source: https://trust.brickanta.com/
+  keywords:
+  - iso 27001
+  - iso/iec 27001:2022
+  - trust center
+  - gdpr
+  - eu ai act
+note: >-
+  Trust portal lists three compliance frameworks (ISO/IEC 27001:2022 cert
+  SE559537-3647, GDPR, EU AI Act Regulation (EU) 2024/1689), 245 security
+  controls, 12 policies, and 13 subprocessors. SOC 2 is not among the held
+  certifications; the probe keyword matched incidental page text.
