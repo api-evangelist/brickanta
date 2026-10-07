@@ -1,0 +1,35 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://brickanta.com/pricing
+sources:
+- https://brickanta.com/pricing
+- https://www.brickanta.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-seat
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Two tiers; Quickstart priced approximately per user per month in euros, Enterprise custom.
+plan_count: 2
+currency: EUR
+plans:
+- name: Quickstart
+  price_text: ~ € 1,000
+  price: 1000
+  currency: EUR
+  period: month
+  unit: per user
+  included_quota: 30-day money-back guarantee, Unlimited AI agents, System integrations, Dedicated implementation
+    expert
+- name: Enterprise
+  price_text: Custom
+  period: none
+  included_quota: Low-risk pilot / opt-out period, Unlimited AI agents, System integrations, Dedicated
+    implementation experts
