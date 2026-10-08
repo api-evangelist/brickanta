@@ -33,3 +33,26 @@ plans:
   period: none
   included_quota: Low-risk pilot / opt-out period, Unlimited AI agents, System integrations, Dedicated
     implementation experts
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - seat
+  units:
+  - seat
+  plans:
+  - name: Quickstart
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
